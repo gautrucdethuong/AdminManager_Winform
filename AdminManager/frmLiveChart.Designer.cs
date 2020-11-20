@@ -45,11 +45,13 @@
             this.cartesianChart1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.cartesianChart1.Location = new System.Drawing.Point(25, 21);
+            this.cartesianChart1.Location = new System.Drawing.Point(19, 17);
+            this.cartesianChart1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cartesianChart1.Name = "cartesianChart1";
-            this.cartesianChart1.Size = new System.Drawing.Size(1097, 427);
+            this.cartesianChart1.Size = new System.Drawing.Size(823, 347);
             this.cartesianChart1.TabIndex = 0;
             this.cartesianChart1.Text = "cartesianChart1";
+            this.cartesianChart1.ChildChanged += new System.EventHandler<System.Windows.Forms.Integration.ChildChangedEventArgs>(this.cartesianChart1_ChildChanged);
             // 
             // dataGridView1
             // 
@@ -58,11 +60,12 @@
             this.year,
             this.month,
             this.value});
-            this.dataGridView1.Location = new System.Drawing.Point(50, 469);
+            this.dataGridView1.Location = new System.Drawing.Point(38, 381);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(580, 167);
+            this.dataGridView1.Size = new System.Drawing.Size(435, 136);
             this.dataGridView1.TabIndex = 1;
             // 
             // year
@@ -88,9 +91,10 @@
             // 
             // btnLoad
             // 
-            this.btnLoad.Location = new System.Drawing.Point(760, 592);
+            this.btnLoad.Location = new System.Drawing.Point(570, 481);
+            this.btnLoad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLoad.Name = "btnLoad";
-            this.btnLoad.Size = new System.Drawing.Size(96, 44);
+            this.btnLoad.Size = new System.Drawing.Size(72, 36);
             this.btnLoad.TabIndex = 2;
             this.btnLoad.Text = "Show";
             this.btnLoad.UseVisualStyleBackColor = true;
@@ -102,12 +106,13 @@
             // 
             // frmLiveChart
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1182, 853);
+            this.ClientSize = new System.Drawing.Size(886, 609);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.cartesianChart1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmLiveChart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LiveChart";
