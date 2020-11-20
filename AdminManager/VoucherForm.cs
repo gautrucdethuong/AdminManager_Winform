@@ -162,7 +162,7 @@ namespace ShopWatches_Winform
                 DateTime current = DateTime.Today;
                 foreach (var item in list)
                 {
-                    if(DateTime.Compare(current, (DateTime)item.exprityDate) < 0 || item.status == "true")
+                    if(DateTime.Compare(current, (DateTime)item.exprityDate) > 0 || item.status == "true")
                     {
                         db.Vouchers.Remove(item);                     
                     }               

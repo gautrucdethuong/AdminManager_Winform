@@ -234,4 +234,3 @@ E:\C# Net\AdminManager_Winform\AdminManager\obj\Debug\AdminManager.csproj.CoreCo
 E:\C# Net\AdminManager_Winform\AdminManager\obj\Debug\AdminManager.csproj.CopyComplete
 E:\C# Net\AdminManager_Winform\AdminManager\obj\Debug\AdminManager.exe
 E:\C# Net\AdminManager_Winform\AdminManager\obj\Debug\AdminManager.pdb
-E:\C# Net\AdminManager_Winform\AdminManager\obj\Debug\AdminManager.frmstatisProduct.resources
